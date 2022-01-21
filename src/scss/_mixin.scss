@@ -1,0 +1,20 @@
+@mixin testimonial-author-name-color($name-color: $color-1) {
+    color: $name-color;
+}
+
+@mixin testimonial-graduate-color($graduate-color: $color-1) {
+    color: $graduate-color;
+}
+
+@mixin testimonial-headline-color($headline-color: $color-1) {
+    color: $headline-color;
+}
+
+@mixin testimonial-description-color($description-color: $color-1) {
+    color: $description-color;
+}
+
+@mixin testimonial-avatar-highlight($color-border: $color-4) {
+    // border-radius: 50%;
+    border: solid $color-border 3px;
+}
